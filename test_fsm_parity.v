@@ -15,7 +15,6 @@ initial begin
   #10 x = 1;
   #10 x = 1;
 
-  
   #10 $finish;
 end
 
@@ -31,32 +30,3 @@ fsm_parity U0 (
 );
 
 endmodule
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
