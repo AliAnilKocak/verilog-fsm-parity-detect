@@ -6,7 +6,6 @@ output reg parity;
 reg state, nextstate;
 parameter S0=0, S1=1;
 
-
 always @(posedge clock or posedge reset) 
 begin
 	if (reset)
